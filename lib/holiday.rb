@@ -38,7 +38,9 @@ def add_supply_to_memorial_day(holiday_hash, supply)
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
-  season
+  holiday_supplies.each do |level_one, level_two|
+    binding.pry 
+  end
 end
 
 def all_winter_holiday_supplies(holiday_hash)
